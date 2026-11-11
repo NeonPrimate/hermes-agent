@@ -1,0 +1,27 @@
+name: hermes-media-ops
+repo: https://github.com/NeonPrimate/hermes-media-ops
+sha: f88a1c636aa973875b4ee4c477dad45a53049a85
+title: "Media Ops"
+description: "Connect Hermes Desktop to a Media Operations MCP and manage a self-hosted media library in plain language."
+maintainer: NeonPrimate
+tier: community
+category: desktop
+requires_hermes: ">=0.21.5"
+docs_url: "https://github.com/NeonPrimate/hermes-media-ops"
+version: "0.1.0"
+image: "https://raw.githubusercontent.com/NeonPrimate/hermes-media-ops/f88a1c636aa973875b4ee4c477dad45a53049a85/assets/catalog-thumbnail.png"
+screenshots:
+  - "https://raw.githubusercontent.com/NeonPrimate/hermes-media-ops/f88a1c636aa973875b4ee4c477dad45a53049a85/assets/screenshot-connection-gated.png"
+  - "https://raw.githubusercontent.com/NeonPrimate/hermes-media-ops/f88a1c636aa973875b4ee4c477dad45a53049a85/assets/screenshot-connection-verified.png"
+  - "https://raw.githubusercontent.com/NeonPrimate/hermes-media-ops/f88a1c636aa973875b4ee4c477dad45a53049a85/assets/screenshot-natural-language-result.png"
+readme: true
+platforms: []
+onboarding: false
+known_issues:
+  - "Requires an already-running Media Operations MCP endpoint exposing the read-only /api/health check."
+  - "The plugin connects and verifies the MCP; media operations are provided by the MCP and Hermes agent."
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
